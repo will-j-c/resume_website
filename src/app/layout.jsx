@@ -12,9 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={`${inter.className} container mx-auto`}>
+      <body className={`${inter.className} container mx-auto h-screen`}>
         <Navbar />
-        <main>{children}</main>
+        <main className='max-w-[1280px] mt-10 mx-auto'>{children}</main>
       </body>
     </html>
   );
