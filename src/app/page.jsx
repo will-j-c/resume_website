@@ -1,9 +1,5 @@
 import Navbar from './ui/Navbar';
 
-export default function Home() {
-  return (
-    <main>
-      <Navbar />
-    </main>
-  );
+export default function Page() {
+  return <div>Home Page</div>;
 }
