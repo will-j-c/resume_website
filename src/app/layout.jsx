@@ -15,7 +15,9 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body className={`${plexMono.className} container mx-auto h-screen`}>
         <Navbar />
-        <main className='max-w-[1280px] mt-10 mx-auto h-screen'>{children}</main>
+        <main className='max-w-[1280px] mt-10 mx-auto h-screen'>
+          {children}
+        </main>
       </body>
     </html>
   );
