@@ -11,7 +11,11 @@ export default function Socials() {
           'text-lightThemePrimaryText hover:text-lightThemeSecondaryText text-opacity-30',
       }}
     >
-      <a target='_blank' rel='noopener' href='https://www.linkedin.com/in/willcolgate/'>
+      <a
+        target='_blank'
+        rel='noopener'
+        href='https://www.linkedin.com/in/willcolgate/'
+      >
         <FaLinkedinIn />
       </a>
       <a target='_blank' rel='noopener' href='https://github.com/will-j-c'>
