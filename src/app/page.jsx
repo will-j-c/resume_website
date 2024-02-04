@@ -1,3 +1,29 @@
+import Image from 'next/image';
+import profileImg from 'public/1660627512104.jpeg';
+// Home page
+
 export default function Page() {
-  return <div>Home Page</div>;
+  return (
+    <div className='flex flex-row max-w-[1110px] mx-auto h-4/5 gap-10'>
+      <div className='basis-6/12 flex h-full flex-col justify-center pl-20'>
+        <h1 className='text-4xl text-lightThemePrimaryText mb-7 font-extrabold'>
+          Will Colgate.
+        </h1>
+        <div className='text-s text-lightThemeSecondaryText'>
+          <p>Tax professional</p>
+          <p>Chartered Accountant</p>
+          <p>Chartered Tax Advisor</p>
+          <p>Certificate in Quantitative Finance</p>
+          <p>Developer</p>
+          <p>Machine Learning Enthusiast</p>
+          <p>Aspiring Quant</p>
+        </div>
+      </div>
+      <div className='basis-6/12 flex flex-col justify-center'>
+        <div className='rounded-full relative overflow-hidden h-[350px] w-[350px] self-center'>
+          <Image src={profileImg} alt='Profile picture of Will' fill={true} />
+        </div>
+      </div>
+    </div>
+  );
 }
