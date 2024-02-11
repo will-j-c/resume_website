@@ -1,7 +1,25 @@
 import { v4 as uuidv4 } from 'uuid';
-import { SiNextdotjs, SiTailwindcss } from 'react-icons/si';
+import {
+  SiNextdotjs,
+  SiTailwindcss,
+  SiScikitlearn,
+  SiKeras,
+  SiTensorflow,
+  SiPandas,
+  SiNumpy,
+  SiExpress,
+  SiMicrosoftoffice,
+  SiCsswizardry,
+  SiMongodb,
+  SiPostgresql,
+  SiMongoose,
+  SiBootstrap,
+  SiBulma
+} from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
-import { FaHtml5 } from 'react-icons/fa';
+import { FaHtml5, FaPython, FaLinux, FaDocker, FaReact } from 'react-icons/fa';
+import { DiDjango } from 'react-icons/di';
+import { LiaNode } from 'react-icons/lia';
 
 export const arr = [
   {

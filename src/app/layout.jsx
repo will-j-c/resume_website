@@ -16,9 +16,9 @@ export default function RootLayout({ children }) {
       <body className={`${plexMono.className} container mx-auto h-screen`}>
         <Navbar />
         <main className='max-w-[1280px] mt-10 mx-auto h-full'>{children}</main>
-        <footer class='mt-4 flex justify-end absolute bottom-0 right-0'>
-          <div class='p-4'>
-            <span class='text-xs text-lightThemeSecondaryText'>
+        <footer className='mt-4 flex justify-end absolute bottom-0 right-0'>
+          <div className='p-4'>
+            <span className='text-xs text-lightThemeSecondaryText'>
               © 2023 William Colgate . All Rights Reserved.
             </span>
           </div>
