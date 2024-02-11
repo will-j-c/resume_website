@@ -1,17 +1,33 @@
+'use client';
+
 import { FaGithub } from 'react-icons/fa';
 import { CiLink } from 'react-icons/ci';
 import { IconContext } from 'react-icons';
+import Link from 'next/link';
 
 export default function ProjectCard(props) {
-  const { title, description, githubLink, appLink } = props.data;
+  const { title, description, githubLink, icons } = props.data;
   return (
-    <div className='max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
-      <h5 className='mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white'>
+    <div className='basis-1/3 p-5 border border-lightThemeSecondary rounded-lg shadow'>
+      <h5 className='mb-2 text-2xl font-semibold tracking-tight text-lightThemePrimaryText'>
         {title}
       </h5>
-      <p className='mb-3 font-normal text-gray-500 dark:text-gray-400'>
+      <p className='mb-3 font-normal text-lightThemeSecondaryText'>
         {description}
       </p>
+      <div className='flex flex-row gap-2 mb-5'>
+        <IconContext.Provider
+          value={{
+            size: '20',
+            className:
+              'text-lightThemePrimaryText hover:text-lightThemeSecondaryText text-opacity-30',
+          }}
+        >
+          {icons.map((icon) => {
+            return icon;
+          })}
+        </IconContext.Provider>
+      </div>
       <div className='flex flex-row justify-end gap-5'>
         <IconContext.Provider
           value={{
@@ -20,12 +36,12 @@ export default function ProjectCard(props) {
               'text-lightThemePrimaryText hover:text-lightThemeSecondaryText text-opacity-30',
           }}
         >
-          <a target='_blank' rel='noopener' href={appLink}>
+          <Link target='_blank' rel='noopener' href={props.data.applink}>
             <CiLink />
-          </a>
-          <a target='_blank' rel='noopener' href={githubLink}>
+          </Link>
+          <Link target='_blank' rel='noopener' href={githubLink}>
             <FaGithub />
-          </a>
+          </Link>
         </IconContext.Provider>
       </div>
     </div>

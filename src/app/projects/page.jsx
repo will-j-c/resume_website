@@ -7,7 +7,7 @@ import { arr } from '@/app/lib/cards';
 export default function Page() {
   const cards = arr;
   return (
-    <div className='flex flex-row gap-5'>
+    <div className='grid grid-cols-3 gap-5'>
       {cards.map((card) => {
         if (card.draft) {
           return;
@@ -20,6 +20,7 @@ export default function Page() {
               description: card.description,
               applink: card.appLink,
               githubLink: card.githubLink,
+              icons: card.icons,
             }}
           />
         );
