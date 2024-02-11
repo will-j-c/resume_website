@@ -14,7 +14,7 @@ import {
   SiPostgresql,
   SiMongoose,
   SiBootstrap,
-  SiBulma
+  SiBulma,
 } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { FaHtml5, FaPython, FaLinux, FaDocker, FaReact } from 'react-icons/fa';
@@ -37,7 +37,7 @@ export const arr = [
     ],
   },
   {
-    title: 'Resume Website',
+    title: 'CQF Exam 1 - Optimal Portfolios',
     description: 'The website you are looking at, made in Next.js',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',
@@ -51,7 +51,7 @@ export const arr = [
     ],
   },
   {
-    title: 'Resume Website',
+    title: 'CQF Exam 2 - Option Pricing',
     description: 'The website you are looking at, made in Next.js',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',
@@ -65,7 +65,7 @@ export const arr = [
     ],
   },
   {
-    title: 'Resume Website',
+    title: 'CQF Exam 3 - Daily Price Prediction With Random Forest Classifer',
     description: 'The website you are looking at, made in Next.js',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',
@@ -79,7 +79,64 @@ export const arr = [
     ],
   },
   {
-    title: 'Resume Website',
+    title:
+      'CQF Final Project - Hourly Price Prediction With Recurrent Neural Networks',
+    description: 'The website you are looking at, made in Next.js',
+    githubLink: 'https://github.com/will-j-c/resume_website',
+    appLink: '/',
+    draft: false,
+    uniqueId: uuidv4(),
+    icons: [
+      <SiNextdotjs key={uuidv4()} title='Next.js' />,
+      <IoLogoJavascript key={uuidv4()} title='Javascript' />,
+      <FaHtml5 key={uuidv4()} title='HTML' />,
+      <SiTailwindcss key={uuidv4()} title='Tailwind CSS' />,
+    ],
+  },
+  {
+    title: 'TutorBook',
+    description: 'The website you are looking at, made in Next.js',
+    githubLink: 'https://github.com/will-j-c/resume_website',
+    appLink: '/',
+    draft: false,
+    uniqueId: uuidv4(),
+    icons: [
+      <SiNextdotjs key={uuidv4()} title='Next.js' />,
+      <IoLogoJavascript key={uuidv4()} title='Javascript' />,
+      <FaHtml5 key={uuidv4()} title='HTML' />,
+      <SiTailwindcss key={uuidv4()} title='Tailwind CSS' />,
+    ],
+  },
+  {
+    title: 'Hello World',
+    description: 'The website you are looking at, made in Next.js',
+    githubLink: 'https://github.com/will-j-c/resume_website',
+    appLink: '/',
+    draft: false,
+    uniqueId: uuidv4(),
+    icons: [
+      <SiNextdotjs key={uuidv4()} title='Next.js' />,
+      <IoLogoJavascript key={uuidv4()} title='Javascript' />,
+      <FaHtml5 key={uuidv4()} title='HTML' />,
+      <SiTailwindcss key={uuidv4()} title='Tailwind CSS' />,
+    ],
+  },
+  {
+    title: 'Wandr',
+    description: 'The website you are looking at, made in Next.js',
+    githubLink: 'https://github.com/will-j-c/resume_website',
+    appLink: '/',
+    draft: false,
+    uniqueId: uuidv4(),
+    icons: [
+      <SiNextdotjs key={uuidv4()} title='Next.js' />,
+      <IoLogoJavascript key={uuidv4()} title='Javascript' />,
+      <FaHtml5 key={uuidv4()} title='HTML' />,
+      <SiTailwindcss key={uuidv4()} title='Tailwind CSS' />,
+    ],
+  },
+  {
+    title: 'Dungeon of Doom',
     description: 'The website you are looking at, made in Next.js',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',

@@ -15,13 +15,19 @@ const links = [
   { name: 'Projects', href: '/projects' },
 ];
 
-export default function NavLinks() {
+export default function NavLinks(props) {
+  const toggleOpen = props
+    ? props
+    : () => {
+        return;
+      };
   const pathname = usePathname();
   return (
     <>
       {links.map((link) => {
         return (
           <Link
+            // onClick={toggleOpen}
             key={link.name}
             href={link.href}
             className={clsx(
