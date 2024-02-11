@@ -1,5 +1,5 @@
 import RightCol from '@/app/ui/frames/RightCol';
-import img from 'public/isaac-matthew-66h9h7gXotA-unsplash.jpg';
+import img from 'public/img_2.jpg';
 import WorkExperience from '@/app/ui/WorkExperience';
 
 // Work Experience Page

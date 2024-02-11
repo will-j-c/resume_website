@@ -4,7 +4,7 @@ import { arr } from '@/app/lib/jobs';
 export default function WorkExperience() {
   const jobs = arr;
   return (
-    <div className='flex h-full flex-col px-5 overflow-auto gap-5'>
+    <div className='flex h-full flex-col px-5 md:overflow-auto gap-5'>
       {jobs.map((job) => {
         return (
           <Job

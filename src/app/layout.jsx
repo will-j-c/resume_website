@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={`${plexMono.className} container mx-auto h-screen`}>
+      <body className={`${plexMono.className} container mx-auto md:h-screen`}>
         <Navbar />
         <MobileNavbar />
         <main className='max-w-[1280px] mt-10 mx-auto h-full'>{children}</main>

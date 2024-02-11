@@ -1,7 +1,7 @@
 'use client';
 
 import RightCol from '@/app/ui/frames/RightCol';
-import img from 'public/justin-lim-qwAUMCutEMc-unsplash (1).jpg';
+import img from 'public/img_4.jpg';
 import { arr } from '@/app/lib/skills';
 import { IconContext } from 'react-icons';
 

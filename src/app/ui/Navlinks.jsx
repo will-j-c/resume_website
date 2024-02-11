@@ -16,18 +16,14 @@ const links = [
 ];
 
 export default function NavLinks(props) {
-  const toggleOpen = props
-    ? props
-    : () => {
-        return;
-      };
+  const toggleOpen = props.props;
   const pathname = usePathname();
   return (
     <>
       {links.map((link) => {
         return (
           <Link
-            // onClick={toggleOpen}
+            onClick={toggleOpen}
             key={link.name}
             href={link.href}
             className={clsx(

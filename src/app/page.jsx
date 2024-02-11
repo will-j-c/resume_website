@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import profileImg from 'public/1660627512104.jpeg';
+import profileImg from 'public/profile.jpeg';
 // Home page
 
 export default function Page() {
   return (
-    <div className='flex flex-row max-w-[1110px] mx-auto h-4/5 gap-10'>
-      <div className='basis-6/12 flex h-full flex-col justify-center pl-20'>
+    <div className='flex flex-col md:flex-row max-w-[1110px] mx-auto h-4/5 gap-10'>
+      <div className='basis-6/12 flex h-full flex-col justify-center md:pl-20 text-center md:text-left'>
         <h1 className='text-4xl text-lightThemePrimaryText mb-7 font-extrabold'>
           Will Colgate.
         </h1>
@@ -21,7 +21,7 @@ export default function Page() {
       </div>
       <div className='basis-6/12 flex flex-col justify-center'>
         <div className='rounded-full relative overflow-hidden h-[350px] w-[350px] self-center'>
-          <Image src={profileImg} alt='Profile picture of Will' fill={true} />
+          <Image src={profileImg} alt='Profile picture of Will' fill={true} priority={true} />
         </div>
       </div>
     </div>

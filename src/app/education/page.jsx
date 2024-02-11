@@ -1,5 +1,5 @@
 import LeftCol from '@/app/ui/frames/LeftCol';
-import img from 'public/lily-banse-Rl6Xep37xS0-unsplash.jpg';
+import img from 'public/img_3.jpg';
 import Education from '@/app/ui/Education';
 
 // Education page
