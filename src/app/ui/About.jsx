@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className='flex h-full flex-col justify-center px-5'>
       <h1 className='text-lightThemeSecondaryText font-extrabold text-xl mb-5'>
-        Head of Tax
+        Head of Tax, Asia Pacific
       </h1>
       <p className='mb-5 text-lightThemeSecondaryText text-xs'>
         Dynamic and results-driven professional with extensive experience in
