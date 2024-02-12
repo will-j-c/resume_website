@@ -14,7 +14,8 @@ import {
   SiPostgresql,
   SiMongoose,
   SiBootstrap,
-  SiBulma
+  SiBulma,
+  SiGreensock
 } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { FaHtml5, FaPython, FaLinux, FaDocker, FaReact } from 'react-icons/fa';
@@ -238,6 +239,12 @@ export const arr = [
   {
     name: 'Team Training & Education',
     type: 'tax',
+    uniqueId: uuidv4(),
+  },
+  {
+    icon: <SiGreensock />,
+    name: 'GSAP Animation',
+    type: 'technology',
     uniqueId: uuidv4(),
   },
 ];

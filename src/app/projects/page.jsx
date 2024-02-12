@@ -3,6 +3,11 @@
 import ProjectCard from '@/app/ui/ProjectCard';
 import { arr } from '@/app/lib/cards';
 
+// Define a compare function
+function compareByTitle(a, b) {
+  return a.props.title.localeCompare(b.props.title);
+}
+
 // Projects page
 export default function Page() {
   const cards = arr;
@@ -12,6 +17,8 @@ export default function Page() {
         if (card.draft) {
           return;
         }
+        console.log(card.icons[0].props.title);
+        card.icons = card.icons.sort(compareByTitle);
         return (
           <ProjectCard
             key={card.uniqueId}

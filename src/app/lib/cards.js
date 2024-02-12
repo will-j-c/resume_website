@@ -15,6 +15,7 @@ import {
   SiMongoose,
   SiBootstrap,
   SiBulma,
+  SiGreensock
 } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { FaHtml5, FaPython, FaLinux, FaDocker, FaReact } from 'react-icons/fa';
@@ -141,16 +142,17 @@ export const arr = [
   },
   {
     title: 'Dungeon of Doom',
-    description: 'The website you are looking at, made in Next.js',
-    githubLink: 'https://github.com/will-j-c/resume_website',
-    appLink: '/',
-    draft: true,
+    description: 'The first project I undertook at General Assembly. A fun, macabre little browser based game with animations from GSAP.',
+    githubLink: 'https://github.com/will-j-c/will-j-c.github.io/tree/main/dungeonofdoom',
+    appLink: 'https://will-j-c.github.io/dungeonofdoom/',
+    draft: false,
     uniqueId: uuidv4(),
     icons: [
-      <SiNextdotjs key={uuidv4()} title='Next.js' />,
+      <SiGreensock key={uuidv4()} title='GSAP Animation' />,
       <IoLogoJavascript key={uuidv4()} title='Javascript' />,
       <FaHtml5 key={uuidv4()} title='HTML' />,
-      <SiTailwindcss key={uuidv4()} title='Tailwind CSS' />,
+      <SiBootstrap key={uuidv4()} title='Bootstrap' />,
+      <SiCsswizardry key={uuidv4()} title='CSS' />,
     ],
   },
 ];

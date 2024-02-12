@@ -11,13 +11,17 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const time = new Date().getFullYear()
+  const time = new Date().getFullYear();
   return (
     <html lang='en'>
-      <body className={`${plexMono.className} container mx-auto h-screen relative`}>
-        <Navbar />
-        <MobileNavbar />
-        <main className='max-w-[1280px] mx-auto md:mt-10'>{children}</main>
+      <body
+        className={`${plexMono.className} container mx-auto h-screen relative flex flex-col justify-between`}
+      >
+        <div>
+          <Navbar />
+          <MobileNavbar />
+          <main className='max-w-[1280px] mx-auto md:mt-10'>{children}</main>
+        </div>
         <footer className='mt-4 flex justify-center md:justify-end'>
           <div className='p-4'>
             <span className='text-xs text-lightThemeSecondaryText'>
