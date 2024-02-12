@@ -10,10 +10,10 @@ export default function ProjectCard(props) {
   return (
     <div className='p-5 border border-lightThemeSecondary rounded-lg shadow h-80 flex flex-col justify-between'>
       <div>
-        <h5 className='mb-2 text-lg font-semibold tracking-tight text-lightThemePrimaryText'>
+        <h5 className='mb-2 text-md font-semibold tracking-tight text-lightThemePrimaryText'>
           {title}
         </h5>
-        <p className='mb-3 font-normal text-lightThemeSecondaryText'>
+        <p className='mb-3 font-normal text-sm text-lightThemeSecondaryText'>
           {description}
         </p>
       </div>

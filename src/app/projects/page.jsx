@@ -17,7 +17,6 @@ export default function Page() {
         if (card.draft) {
           return;
         }
-        console.log(card.icons[0].props.title);
         card.icons = card.icons.sort(compareByTitle);
         return (
           <ProjectCard

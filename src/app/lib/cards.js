@@ -15,7 +15,7 @@ import {
   SiMongoose,
   SiBootstrap,
   SiBulma,
-  SiGreensock
+  SiGreensock,
 } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { FaHtml5, FaPython, FaLinux, FaDocker, FaReact } from 'react-icons/fa';
@@ -25,7 +25,8 @@ import { LiaNode } from 'react-icons/lia';
 export const arr = [
   {
     title: 'Resume Website',
-    description: 'The website you are looking at. Built with Next.js and Tailwind',
+    description:
+      'The website you are looking at. Built with Next.js and Tailwind',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',
     draft: false,
@@ -38,45 +39,43 @@ export const arr = [
     ],
   },
   {
-    title: 'CQF Exam 1 - Optimal Portfolios',
-    description: 'The website you are looking at, made in Next.js',
-    githubLink: 'https://github.com/will-j-c/resume_website',
-    appLink: '/',
-    draft: true,
+    title: 'CQF Exam 1 - Optimal Portfolios, Binomial Option Pricing, VaR, ES',
+    description: 'First CQF exam submission exploring portfolio optimisation, binomial option pricing, VaR and ES in Python.',
+    githubLink: 'https://github.com/will-j-c/cqf_exam_1',
+    appLink: 'https://will-j-c.github.io/cqfexam1/',
+    draft: false,
     uniqueId: uuidv4(),
     icons: [
-      <SiNextdotjs key={uuidv4()} title='Next.js' />,
-      <IoLogoJavascript key={uuidv4()} title='Javascript' />,
-      <FaHtml5 key={uuidv4()} title='HTML' />,
-      <SiTailwindcss key={uuidv4()} title='Tailwind CSS' />,
+      <SiPandas key={uuidv4()} title='Pandas' />,
+      <SiNumpy key={uuidv4()} title='Numpy' />,
+      <FaPython key={uuidv4()} title='Python' />,
     ],
   },
   {
-    title: 'CQF Exam 2 - Option Pricing',
-    description: 'The website you are looking at, made in Next.js',
+    title: 'CQF Exam 2 - Monte Carlo Option Pricing, PDE Numerical Solutions and Monte Carlo Integration',
+    description: 'Second CQF exam submission exploring numerical methods.',
     githubLink: 'https://github.com/will-j-c/resume_website',
-    appLink: '/',
-    draft: true,
+    appLink: 'https://will-j-c.github.io/cqfexam2/',
+    draft: false,
     uniqueId: uuidv4(),
     icons: [
-      <SiNextdotjs key={uuidv4()} title='Next.js' />,
-      <IoLogoJavascript key={uuidv4()} title='Javascript' />,
-      <FaHtml5 key={uuidv4()} title='HTML' />,
-      <SiTailwindcss key={uuidv4()} title='Tailwind CSS' />,
+      <SiPandas key={uuidv4()} title='Pandas' />,
+      <SiNumpy key={uuidv4()} title='Numpy' />,
+      <FaPython key={uuidv4()} title='Python' />,
     ],
   },
   {
-    title: 'CQF Exam 3 - Daily Price Prediction With Random Forest Classifer',
-    description: 'The website you are looking at, made in Next.js',
-    githubLink: 'https://github.com/will-j-c/resume_website',
-    appLink: '/',
-    draft: true,
+    title: 'CQF Exam 3 - Daily Price Prediction With Random Forest Classifier',
+    description: 'Examing the daily Schroders share price and attempting to predict an upward trend using a random forest classifier.',
+    githubLink: 'https://github.com/will-j-c/cqf_exam_3',
+    appLink: 'https://will-j-c.github.io/cqfexam3/',
+    draft: false,
     uniqueId: uuidv4(),
     icons: [
-      <SiNextdotjs key={uuidv4()} title='Next.js' />,
-      <IoLogoJavascript key={uuidv4()} title='Javascript' />,
-      <FaHtml5 key={uuidv4()} title='HTML' />,
-      <SiTailwindcss key={uuidv4()} title='Tailwind CSS' />,
+      <SiPandas key={uuidv4()} title='Pandas' />,
+      <SiNumpy key={uuidv4()} title='Numpy' />,
+      <SiScikitlearn key={uuidv4()} title='Scikit-learn' />,
+      <FaPython key={uuidv4()} title='Python' />,
     ],
   },
   {
@@ -86,7 +85,7 @@ export const arr = [
       'The final project report for CQF examining the proplem of hourly upward price prediction using LSTM neural networks.',
     githubLink: 'https://github.com/will-j-c/cqf_final_project_DL',
     appLink:
-      'https://htmlpreview.github.io/?https://raw.githubusercontent.com/will-j-c/cqf_final_project_DL/main/report.html',
+      'https://will-j-c.github.io/cqffinal/',
     draft: false,
     uniqueId: uuidv4(),
     icons: [
@@ -142,8 +141,10 @@ export const arr = [
   },
   {
     title: 'Dungeon of Doom',
-    description: 'The first project I undertook at General Assembly. A fun, macabre little browser based game with animations from GSAP.',
-    githubLink: 'https://github.com/will-j-c/will-j-c.github.io/tree/main/dungeonofdoom',
+    description:
+      'The first project I undertook at General Assembly. A fun, macabre little browser based game with animations from GSAP.',
+    githubLink:
+      'https://github.com/will-j-c/will-j-c.github.io/tree/main/dungeonofdoom',
     appLink: 'https://will-j-c.github.io/dungeonofdoom/',
     draft: false,
     uniqueId: uuidv4(),
