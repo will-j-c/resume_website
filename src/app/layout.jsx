@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <MobileNavbar />
         <main className='max-w-[1280px] mx-auto md:mt-10'>{children}</main>
-        <footer className='mt-4 flex justify-end'>
+        <footer className='mt-4 flex justify-center md:justify-end'>
           <div className='p-4'>
             <span className='text-xs text-lightThemeSecondaryText'>
               {`© ${time} William Colgate. All Rights Reserved.`}

@@ -24,7 +24,7 @@ import { LiaNode } from 'react-icons/lia';
 export const arr = [
   {
     title: 'Resume Website',
-    description: 'The website you are looking at, made in Next.js',
+    description: 'The website you are looking at. Built with Next.js and Tailwind',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',
     draft: false,
@@ -41,7 +41,7 @@ export const arr = [
     description: 'The website you are looking at, made in Next.js',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',
-    draft: false,
+    draft: true,
     uniqueId: uuidv4(),
     icons: [
       <SiNextdotjs key={uuidv4()} title='Next.js' />,
@@ -55,7 +55,7 @@ export const arr = [
     description: 'The website you are looking at, made in Next.js',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',
-    draft: false,
+    draft: true,
     uniqueId: uuidv4(),
     icons: [
       <SiNextdotjs key={uuidv4()} title='Next.js' />,
@@ -69,7 +69,7 @@ export const arr = [
     description: 'The website you are looking at, made in Next.js',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',
-    draft: false,
+    draft: true,
     uniqueId: uuidv4(),
     icons: [
       <SiNextdotjs key={uuidv4()} title='Next.js' />,
@@ -81,16 +81,20 @@ export const arr = [
   {
     title:
       'CQF Final Project - Hourly Price Prediction With Recurrent Neural Networks',
-    description: 'The website you are looking at, made in Next.js',
-    githubLink: 'https://github.com/will-j-c/resume_website',
-    appLink: '/',
+    description:
+      'The final project report for CQF examining the proplem of hourly upward price prediction using LSTM neural networks.',
+    githubLink: 'https://github.com/will-j-c/cqf_final_project_DL',
+    appLink:
+      'https://htmlpreview.github.io/?https://raw.githubusercontent.com/will-j-c/cqf_final_project_DL/main/report.html',
     draft: false,
     uniqueId: uuidv4(),
     icons: [
-      <SiNextdotjs key={uuidv4()} title='Next.js' />,
-      <IoLogoJavascript key={uuidv4()} title='Javascript' />,
-      <FaHtml5 key={uuidv4()} title='HTML' />,
-      <SiTailwindcss key={uuidv4()} title='Tailwind CSS' />,
+      <SiTensorflow key={uuidv4()} title='TensorFlow' />,
+      <SiPandas key={uuidv4()} title='Pandas' />,
+      <SiNumpy key={uuidv4()} title='Numpy' />,
+      <SiKeras key={uuidv4()} title='Keras' />,
+      <SiScikitlearn key={uuidv4()} title='Scikit-learn' />,
+      <FaPython key={uuidv4()} title='Python' />,
     ],
   },
   {
@@ -98,7 +102,7 @@ export const arr = [
     description: 'The website you are looking at, made in Next.js',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',
-    draft: false,
+    draft: true,
     uniqueId: uuidv4(),
     icons: [
       <SiNextdotjs key={uuidv4()} title='Next.js' />,
@@ -112,7 +116,7 @@ export const arr = [
     description: 'The website you are looking at, made in Next.js',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',
-    draft: false,
+    draft: true,
     uniqueId: uuidv4(),
     icons: [
       <SiNextdotjs key={uuidv4()} title='Next.js' />,
@@ -126,7 +130,7 @@ export const arr = [
     description: 'The website you are looking at, made in Next.js',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',
-    draft: false,
+    draft: true,
     uniqueId: uuidv4(),
     icons: [
       <SiNextdotjs key={uuidv4()} title='Next.js' />,
@@ -140,7 +144,7 @@ export const arr = [
     description: 'The website you are looking at, made in Next.js',
     githubLink: 'https://github.com/will-j-c/resume_website',
     appLink: '/',
-    draft: false,
+    draft: true,
     uniqueId: uuidv4(),
     icons: [
       <SiNextdotjs key={uuidv4()} title='Next.js' />,
