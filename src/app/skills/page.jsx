@@ -4,7 +4,7 @@ import RightCol from '@/app/ui/frames/RightCol';
 import img from 'public/img_4.jpg';
 import imgMob from 'public/img_4_mob.jpg';
 import Skills from '@/app/ui/Skills';
-import { useRef } from 'react';
+import { useEffect, useState } from 'react';
 
 // Define a compare function
 function compareByName(a, b) {
@@ -13,19 +13,21 @@ function compareByName(a, b) {
 
 // Skills page
 export default function Page() {
-  const width = useRef(window.innerWidth);
-  const mob = width.current < 768;
-  return mob ? (
+  const [image, setImage] = useState();
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      setImage(imgMob);
+    } else {
+      setImage(img);
+    }
+  }, []);
+  return image ? (
     <RightCol
-      props={{ bgImg: imgMob, alt: 'Cloud forests at Gardens by the Bay' }}
+      props={{ bgImg: image, alt: 'Cloud forests at Gardens by the Bay' }}
     >
       <Skills />
     </RightCol>
   ) : (
-    <RightCol
-      props={{ bgImg: img, alt: 'Cloud forests at Gardens by the Bay' }}
-    >
-      <Skills />
-    </RightCol>
+    <p>Loading</p>
   );
 }
