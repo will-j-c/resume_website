@@ -12,7 +12,7 @@ export default function Job(props) {
       </div>
       <h3 className='mb-5'>{where}</h3>
       <p className='mb-5 text-lightThemeSecondaryText text-xs'>{description}</p>
-      <ul className='text-lightThemePrimaryText text-xs list-disc'>
+      <ul className='text-lightThemePrimaryText text-xs list-disc px-5'>
         {bullets.map((bullet) => {
           return <li key={uuidv4()}>{bullet}</li>;
         })}

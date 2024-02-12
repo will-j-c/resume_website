@@ -16,7 +16,7 @@ export default function MobileNavbar() {
     }
   };
   return (
-    <div className='flex flex-col bg-lightThemeSecondary md:invisible visible'>
+    <div className='flex flex-col bg-lightThemeSecondary md:invisible visible md:h-0'>
       <div className='h-[70px] flex flex-row'>
         <div className='w-full flex flex-row mx-10 align-middle'>
           <div className='basis-3/4 flex flex-row my-auto'>
