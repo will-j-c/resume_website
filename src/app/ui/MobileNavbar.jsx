@@ -16,7 +16,7 @@ export default function MobileNavbar() {
     }
   };
   return (
-    <div className='flex flex-col bg-lightThemeSecondary md:invisible visible md:h-0'>
+    <div className='flex flex-col bg-lightThemeSecondary md:invisible visible md:h-0 dark:bg-darkThemeSecondary'>
       <div className='h-[70px] flex flex-row'>
         <div className='w-full flex flex-row mx-10 align-middle'>
           <div className='basis-3/4 flex flex-row my-auto'>
@@ -24,7 +24,7 @@ export default function MobileNavbar() {
               value={{
                 size: '25',
                 className:
-                  'text-lightThemePrimaryText hover:text-lightThemeSecondaryText text-opacity-30',
+                  'text-lightThemePrimaryText hover:text-lightThemeSecondaryText dark:text-darkThemePrimaryText dark:hover:text-darkThemeSecondaryText  text-opacity-30 dark:text-darkThemePrimaryText',
               }}
             >
               <IoReorderThreeOutline onClick={toggleOpen} />

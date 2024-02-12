@@ -11,15 +11,15 @@ export default function Skills() {
   const techs = sorted_arr.filter((item) => item.type === 'technology');
   const skills = sorted_arr.filter((item) => item.type === 'tax');
   return (
-    <div className='flex flex-col md:flex-row text-lightThemePrimaryText text-xs gap-5 text-center md:text-left'>
+    <div className='flex flex-col md:flex-row text-lightThemePrimaryText dark:text-darkThemePrimaryText text-xs gap-5 text-center md:text-left'>
       <div className='basis-1/2'>
-        <h1 className='text-lightThemeSecondaryText font-extrabold text-xl mb-5'>
+        <h1 className='text-lightThemeSecondaryText font-extrabold text-xl mb-5 dark:text-darkThemeSecondaryText'>
           Professional Skills
         </h1>
         <ul>
           {skills.map((skill) => {
             return (
-              <li key={skill.uniqueId} className='my-2'>
+              <li key={skill.uniqueId} className='my-2 text-xs md:text-sm'>
                 {skill.name}
               </li>
             );
@@ -27,7 +27,7 @@ export default function Skills() {
         </ul>
       </div>
       <div className='basis-1/2'>
-        <h1 className='text-lightThemeSecondaryText font-extrabold text-xl mb-5'>
+        <h1 className='text-lightThemeSecondaryText font-extrabold mb-5 dark:text-darkThemeSecondaryText text-sm md:text-lg'>
           Technology Skills
         </h1>
         <ul>
@@ -35,13 +35,13 @@ export default function Skills() {
             return (
               <li
                 key={tech.uniqueId}
-                className='flex flex-row gap-2 items-center justify-center md:justify-start my-1'
+                className='flex flex-row gap-2 items-center justify-center md:justify-start my-1 text-xs md:text-sm'
               >
                 <IconContext.Provider
                   value={{
                     size: '20',
                     className:
-                      'text-lightThemePrimaryText hover:text-lightThemeSecondaryText text-opacity-30',
+                      'text-lightThemePrimaryText dark:text-darkThemePrimaryText dark:hover:text-darkThemeSecondaryText hover:text-lightThemeSecondaryText text-opacity-30 dark:text-darkThemeSecondaryText',
                   }}
                 >
                   {tech.icon}

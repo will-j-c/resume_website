@@ -1,15 +1,15 @@
 export default function About() {
   return (
     <div className='flex h-full flex-col justify-center px-5'>
-      <h1 className='text-lightThemeSecondaryText font-extrabold text-xl mb-5'>
+      <h1 className='text-lightThemeSecondaryText dark:text-darkThemeSecondaryText font-extrabold text-xl mb-5'>
         Head of Tax, Asia Pacific
       </h1>
-      <p className='mb-5 text-lightThemeSecondaryText text-xs'>
+      <p className='mb-5 text-lightThemeSecondaryText text-xs dark:text-darkThemeSecondaryText'>
         Dynamic and results-driven professional with extensive experience in
         driving strategic tax initiatives and delivering impactful financial
         outcomes to optimise organisational performance.
       </p>
-      <p className='text-lightThemePrimaryText text-xs'>
+      <p className='text-lightThemePrimaryText dark:text-darkThemePrimaryText text-xs'>
         Skilled in managing tax audits and disputes, negotiating favourable
         resolutions, and mitigating tax risks. Adept at optimising tax
         strategies, reducing costs, and ensuring regulatory compliance across

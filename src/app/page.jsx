@@ -6,10 +6,10 @@ export default function Page() {
   return (
     <div className='flex flex-col md:flex-row max-w-[1110px] mx-auto h-[75vh] gap-10 mt-5'>
       <div className='basis-6/12 flex h-full flex-col justify-center md:pl-20 text-center md:text-left'>
-        <h1 className='text-4xl text-lightThemePrimaryText mb-7 font-extrabold'>
+        <h1 className='text-4xl text-lightThemePrimaryText mb-7 font-extrabold dark:text-darkThemePrimaryText'>
           Will Colgate.
         </h1>
-        <div className='text-s text-lightThemeSecondaryText'>
+        <div className='text-s text-lightThemeSecondaryText dark:text-darkThemeSecondaryText'>
           <p>Tax professional</p>
           <p>Chartered Accountant</p>
           <p>Chartered Tax Advisor</p>

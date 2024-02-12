@@ -27,9 +27,9 @@ export default function NavLinks(props) {
             key={link.name}
             href={link.href}
             className={clsx(
-              'my-auto p-5 text-sm text-lightThemePrimaryText hover:text-lightThemeSecondaryText hover:font-extrabold',
+              'my-auto p-5 text-sm text-lightThemePrimaryText dark:text-darkThemePrimaryText dark:hover:text-darkThemeSecondaryText hover:text-lightThemeSecondaryText hover:font-extrabold',
               {
-                'text-lightThemeSecondaryText font-extrabold':
+                'text-lightThemeSecondaryText font-extrabold dark:text-darkThemeSecondaryText':
                   pathname === link.href,
               }
             )}

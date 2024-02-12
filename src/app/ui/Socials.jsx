@@ -8,7 +8,7 @@ export default function Socials() {
       value={{
         size: '25',
         className:
-          'text-lightThemePrimaryText hover:text-lightThemeSecondaryText text-opacity-30',
+          'text-lightThemePrimaryText dark:text-darkThemePrimaryText dark:hover:text-darkThemeSecondaryText hover:text-lightThemeSecondaryText dark:text-darkThemeSecondaryText text-opacity-30',
       }}
     >
       <a

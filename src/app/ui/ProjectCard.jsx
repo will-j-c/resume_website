@@ -8,12 +8,12 @@ import Link from 'next/link';
 export default function ProjectCard(props) {
   const { title, description, githubLink, icons } = props.data;
   return (
-    <div className='p-5 border border-lightThemeSecondary rounded-lg shadow h-80 flex flex-col justify-between'>
+    <div className='p-5 border border-lightThemeSecondary dark:border-darkThemeSecondary rounded-lg shadow h-80 flex flex-col justify-between'>
       <div>
-        <h5 className='mb-2 text-md font-semibold tracking-tight text-lightThemePrimaryText'>
+        <h5 className='mb-2 text-md font-semibold tracking-tight text-lightThemePrimaryText dark:text-darkThemePrimaryText'>
           {title}
         </h5>
-        <p className='mb-3 font-normal text-sm text-lightThemeSecondaryText'>
+        <p className='mb-3 font-normal text-sm text-lightThemeSecondaryText dark:text-darkThemeSecondaryText'>
           {description}
         </p>
       </div>
@@ -23,7 +23,7 @@ export default function ProjectCard(props) {
             value={{
               size: '20',
               className:
-                'text-lightThemePrimaryText hover:text-lightThemeSecondaryText text-opacity-30',
+                'text-lightThemePrimaryText hover:text- dark:text-darkThemeSecondaryText text-opacity-30 dark:text-darkThemePrimaryText',
             }}
           >
             {icons.map((icon) => {
@@ -36,7 +36,7 @@ export default function ProjectCard(props) {
             value={{
               size: '25',
               className:
-                'text-lightThemePrimaryText hover:text-lightThemeSecondaryText text-opacity-30',
+                'text-lightThemePrimaryText hover:text-lightThemeSecondaryText text-opacity-30 dark:text-darkThemePrimaryText dark:hover:text-darkThemeSecondaryText',
             }}
           >
             <Link target='_blank' rel='noopener' href={props.data.applink}>
