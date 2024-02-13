@@ -12,7 +12,7 @@ function compareByTitle(a, b) {
 export default function Page() {
   const cards = arr;
   return (
-    <div className='grid md:grid-cols-3 gap-5 p-5 md:px-0'>
+    <div className='grid md:grid-cols-3 gap-5 p-5 md:px-0 max-w-[1110px]'>
       {cards.map((card) => {
         if (card.draft) {
           return;

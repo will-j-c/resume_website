@@ -8,7 +8,7 @@ import Link from 'next/link';
 export default function ProjectCard(props) {
   const { title, description, githubLink, icons } = props.data;
   return (
-    <div className='p-5 border border-lightThemeSecondary dark:border-darkThemeSecondary rounded-lg shadow h-80 flex flex-col justify-between'>
+    <div className='p-5 border border-lightThemeSecondary dark:border-darkThemeSecondary rounded-lg shadow-xl h-80 flex flex-col justify-between'>
       <div>
         <h5 className='mb-2 text-md font-semibold tracking-tight text-lightThemePrimaryText dark:text-darkThemePrimaryText'>
           {title}
