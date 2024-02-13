@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body
-        className={`${plexMono.className} container mx-auto relative flex flex-col justify-between bg-lightThemePrimary dark:bg-darkThemePrimary`}
+        className={`${plexMono.className} h-screen container mx-auto relative flex flex-col justify-between bg-lightThemePrimary dark:bg-darkThemePrimary`}
       >
         <div>
           <Navbar />
