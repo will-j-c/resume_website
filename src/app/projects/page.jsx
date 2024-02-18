@@ -10,7 +10,9 @@ function compareByTitle(a, b) {
 
 // Projects page
 export default function Page() {
-  const cards = arr;
+  const cards = arr.toSorted((a, b) => {
+    return b.rank - a.rank;
+  });
   return (
     <div className='grid md:grid-cols-3 gap-5 p-5 md:px-0 max-w-[1110px] mx-auto'>
       {cards.map((card) => {

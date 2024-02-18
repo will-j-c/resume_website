@@ -31,6 +31,7 @@ export const arr = [
     appLink: '/',
     draft: false,
     uniqueId: uuidv4(),
+    rank: 9,
     icons: [
       <SiNextdotjs key={uuidv4()} title='Next.js' />,
       <IoLogoJavascript key={uuidv4()} title='Javascript' />,
@@ -45,6 +46,7 @@ export const arr = [
     appLink: 'https://will-j-c.github.io/cqfexam1/',
     draft: false,
     uniqueId: uuidv4(),
+    rank: 6,
     icons: [
       <SiPandas key={uuidv4()} title='Pandas' />,
       <SiNumpy key={uuidv4()} title='Numpy' />,
@@ -58,6 +60,7 @@ export const arr = [
     appLink: 'https://will-j-c.github.io/cqfexam2/',
     draft: false,
     uniqueId: uuidv4(),
+    rank: 6,
     icons: [
       <SiPandas key={uuidv4()} title='Pandas' />,
       <SiNumpy key={uuidv4()} title='Numpy' />,
@@ -71,6 +74,7 @@ export const arr = [
     appLink: 'https://will-j-c.github.io/cqfexam3/',
     draft: false,
     uniqueId: uuidv4(),
+    rank: 7,
     icons: [
       <SiPandas key={uuidv4()} title='Pandas' />,
       <SiNumpy key={uuidv4()} title='Numpy' />,
@@ -88,6 +92,7 @@ export const arr = [
       'https://will-j-c.github.io/cqffinal/',
     draft: false,
     uniqueId: uuidv4(),
+    rank: 8,
     icons: [
       <SiTensorflow key={uuidv4()} title='TensorFlow' />,
       <SiPandas key={uuidv4()} title='Pandas' />,
@@ -104,6 +109,7 @@ export const arr = [
     appLink: '/',
     draft: true,
     uniqueId: uuidv4(),
+    rank: 4,
     icons: [
       <SiNextdotjs key={uuidv4()} title='Next.js' />,
       <IoLogoJavascript key={uuidv4()} title='Javascript' />,
@@ -118,6 +124,7 @@ export const arr = [
     appLink: '/',
     draft: true,
     uniqueId: uuidv4(),
+    rank: 3,
     icons: [
       <SiNextdotjs key={uuidv4()} title='Next.js' />,
       <IoLogoJavascript key={uuidv4()} title='Javascript' />,
@@ -132,6 +139,7 @@ export const arr = [
     appLink: 'https://wandr-0h26.onrender.com/',
     draft: false,
     uniqueId: uuidv4(),
+    rank: 2,
     icons: [
       <IoLogoJavascript key={uuidv4()} title='Javascript' />,
       <FaHtml5 key={uuidv4()} title='HTML' />,
@@ -151,6 +159,7 @@ export const arr = [
     appLink: 'https://will-j-c.github.io/dungeonofdoom/',
     draft: false,
     uniqueId: uuidv4(),
+    rank: 1,
     icons: [
       <SiGreensock key={uuidv4()} title='GSAP Animation' />,
       <IoLogoJavascript key={uuidv4()} title='Javascript' />,
