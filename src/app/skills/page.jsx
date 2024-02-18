@@ -13,21 +13,15 @@ function compareByName(a, b) {
 
 // Skills page
 export default function Page() {
-  const [image, setImage] = useState();
-  useEffect(() => {
-    if (window.innerWidth < 768) {
-      setImage(imgMob);
-    } else {
-      setImage(img);
-    }
-  }, []);
-  return image ? (
+  return (
     <RightCol
-      props={{ bgImg: image, alt: 'Cloud forests at Gardens by the Bay' }}
+      props={{
+        bgImg: img,
+        bgImgMob: imgMob,
+        alt: 'Cloud forests at Gardens by the Bay',
+      }}
     >
       <Skills />
     </RightCol>
-  ) : (
-    <p>Loading</p>
   );
 }

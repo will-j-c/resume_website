@@ -8,19 +8,11 @@ import { useEffect, useState } from 'react';
 
 // Education page
 export default function Page() {
-  const [image, setImage] = useState();
-  useEffect(() => {
-    if (window.innerWidth < 768) {
-      setImage(imgMob);
-    } else {
-      setImage(img);
-    }
-  }, []);
-  return image ? (
-    <LeftCol props={{ bgImg: image, alt: 'Singapore Nankin Street' }}>
+  return (
+    <LeftCol
+      props={{ bgImg: img, bgImgMob: imgMob, alt: 'Singapore Nankin Street' }}
+    >
       <Education />
     </LeftCol>
-  ) : (
-    <p>Loading</p>
   );
 }

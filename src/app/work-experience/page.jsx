@@ -8,21 +8,15 @@ import { useEffect, useState } from 'react';
 
 // Work Experience Page
 export default function Page() {
-  const [image, setImage] = useState();
-  useEffect(() => {
-    if (window.innerWidth < 768) {
-      setImage(imgMob);
-    } else {
-      setImage(img);
-    }
-  }, []);
-  return image ? (
+  return (
     <RightCol
-      props={{ bgImg: image, alt: 'Super trees at Gardens by the Bay' }}
+      props={{
+        bgImg: img,
+        bgImgMob: imgMob,
+        alt: 'Super trees at Gardens by the Bay',
+      }}
     >
       <WorkExperience />
     </RightCol>
-  ) : (
-    <p>Loading</p>
   );
 }
