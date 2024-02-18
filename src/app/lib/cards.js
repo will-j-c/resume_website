@@ -46,7 +46,7 @@ export const arr = [
     appLink: 'https://will-j-c.github.io/cqfexam1/',
     draft: false,
     uniqueId: uuidv4(),
-    rank: 6,
+    rank: 5,
     icons: [
       <SiPandas key={uuidv4()} title='Pandas' />,
       <SiNumpy key={uuidv4()} title='Numpy' />,
