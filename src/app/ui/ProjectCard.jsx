@@ -23,7 +23,7 @@ export default function ProjectCard(props) {
             value={{
               size: '20',
               className:
-                'text-lightThemePrimaryText hover:text-lightThemeSecondaryText dark:text-darkThemePrimaryText text-opacity-30 dark:text-darkThemePrimaryText',
+                'text-lightThemePrimaryText hover:text-lightThemeSecondaryText dark:hover:text-darkThemeSecondaryText dark:text-darkThemePrimaryText text-opacity-30 dark:text-darkThemePrimaryText',
             }}
           >
             {icons.map((icon) => {
