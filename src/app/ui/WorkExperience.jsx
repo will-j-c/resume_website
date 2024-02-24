@@ -1,13 +1,17 @@
-import Job from '@/app/ui/Job';
+import JobAccordionItem from '@/app/ui/JobAccordionItem';
 import { arr } from '@/app/lib/jobs';
+import { Accordion } from 'react-accessible-accordion';
 
 export default function WorkExperience() {
   const jobs = arr;
   return (
-    <div className='flex h-full flex-col px-5 md:overflow-auto gap-5'>
+    <Accordion
+      className='flex h-full flex-col px-5 md:overflow-auto gap-5'
+      allowZeroExpanded={true}
+    >
       {jobs.map((job) => {
         return (
-          <Job
+          <JobAccordionItem
             key={job.uniqueId}
             data={{
               title: job.title,
@@ -19,6 +23,6 @@ export default function WorkExperience() {
           />
         );
       })}
-    </div>
+    </Accordion>
   );
 }
