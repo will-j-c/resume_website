@@ -8,9 +8,9 @@ export default function Job(props) {
         <h1 className='text-lightThemeSecondaryText font-extrabold text-sm md:text-lg dark:text-darkThemeSecondaryText'>
           {title}
         </h1>
-        <h3 className='text-lightThemePrimaryText dark:text-darkThemePrimaryText text-xs md:text-base'>{dates}</h3>
+        <h3 className='text-lightThemePrimaryText dark:text-darkThemePrimaryText text-xs md:text-small'>{dates}</h3>
       </div>
-      <h3 className='mb-5 text-lightThemePrimaryText dark:text-darkThemePrimaryText text-xs md:text-base'>{where}</h3>
+      <h3 className='mb-5 text-lightThemePrimaryText dark:text-darkThemePrimaryText text-xs md:text-small'>{where}</h3>
       <p className='mb-5 text-lightThemeSecondaryText text-xs dark:text-darkThemeSecondaryText'>
         {description}
       </p>
