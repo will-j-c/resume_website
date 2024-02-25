@@ -1,9 +1,9 @@
-import { IBM_Plex_Mono } from 'next/font/google';
+import { Nunito_Sans } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/app/ui/Navbar';
 import MobileNavbar from '@/app/ui/MobileNavbar';
 
-const plexMono = IBM_Plex_Mono({ subsets: ['latin'], weight: '400' });
+const font = Nunito_Sans({ subsets: ['latin'], weight: '400' });
 
 export const metadata = {
   title: 'Will Colgate',
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body
-        className={`${plexMono.className} h-screen container mx-auto relative flex flex-col justify-between bg-lightThemePrimary dark:bg-darkThemePrimary`}
+        className={`${font.className} h-screen container mx-auto relative flex flex-col justify-between bg-lightThemePrimary dark:bg-darkThemePrimary`}
       >
         <div>
           <Navbar />
