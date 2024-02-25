@@ -14,7 +14,7 @@ export default function Page() {
     return b.rank - a.rank;
   });
   return (
-    <div className='grid md:grid-cols-3 gap-5 p-5 md:px-0 max-w-[1110px] mx-auto'>
+    <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5 p-5 md:px-0 max-w-[1110px] mx-auto'>
       {cards.map((card) => {
         if (card.draft) {
           return;
