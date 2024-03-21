@@ -2,6 +2,7 @@ import { Nunito_Sans } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/app/ui/Navbar';
 import MobileNavbar from '@/app/ui/MobileNavbar';
+import { Analytics } from '@vercel/analytics/react';
 
 const font = Nunito_Sans({ subsets: ['latin'], weight: '400' });
 
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
             </span>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
