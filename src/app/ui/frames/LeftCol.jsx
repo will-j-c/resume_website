@@ -1,6 +1,4 @@
 import Image from 'next/image';
-import { Suspense } from 'react';
-import { LargePhotoSkeleton } from '@/app/ui/Skeletons';
 
 export default function LeftCol({ props, children }) {
   const { bgImg, alt, bgImgMob } = props;

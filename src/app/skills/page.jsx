@@ -1,8 +1,8 @@
 'use client';
 
 import RightCol from '@/app/ui/frames/RightCol';
-import img from 'public/img_4.jpg';
-import imgMob from 'public/img_4_mob.jpg';
+import img from '/public/img_4.jpg';
+import imgMob from '/public/img_4_mob.jpg';
 import Skills from '@/app/ui/Skills';
 import { useEffect, useState } from 'react';
 
