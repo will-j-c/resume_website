@@ -8,7 +8,6 @@ import {
   SiPandas,
   SiNumpy,
   SiExpress,
-  SiMicrosoftoffice,
   SiCsswizardry,
   SiMongodb,
   SiPostgresql,
@@ -18,7 +17,7 @@ import {
   SiGreensock
 } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
-import { FaHtml5, FaPython, FaLinux, FaDocker, FaReact } from 'react-icons/fa';
+import { FaHtml5, FaPython, FaLinux, FaDocker, FaReact, FaMicrosoft, FaJava } from 'react-icons/fa';
 import { DiDjango } from 'react-icons/di';
 import { LiaNode } from 'react-icons/lia';
 
@@ -129,7 +128,7 @@ export const arr = [
     uniqueId: uuidv4(),
   },
   {
-    icon: <SiMicrosoftoffice />,
+    icon: <FaMicrosoft />,
     name: 'Microsoft Office Suite',
     type: 'technology',
     uniqueId: uuidv4(),
@@ -244,6 +243,12 @@ export const arr = [
   {
     icon: <SiGreensock />,
     name: 'GSAP Animation',
+    type: 'technology',
+    uniqueId: uuidv4(),
+  },
+  {
+    icon: <FaJava />,
+    name: 'Java',
     type: 'technology',
     uniqueId: uuidv4(),
   },

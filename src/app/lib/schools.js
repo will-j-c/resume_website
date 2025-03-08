@@ -2,6 +2,14 @@ import { v4 as uuidv4 } from 'uuid';
 
 export const arr = [
   {
+    qualification: 'MSc Computer Science',
+    institute: 'University of Bath',
+    dates: '2025 (current student)',
+    where: 'Bath, UK',
+    uniqueId: uuidv4(),
+    link: 'https://www.bath.ac.uk/',
+  },
+  {
     qualification: 'Certificate in Quantitative Finance (CQF)',
     institute: 'CQF Institute',
     dates: '2024',
