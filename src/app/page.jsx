@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import profileImg from 'public/profile.jpeg';
+
 // Home page
 
 export default function Page() {
@@ -21,7 +21,7 @@ export default function Page() {
       </div>
       <div className='basis-6/12 flex flex-col justify-center'>
         <div className='rounded-full relative overflow-hidden h-[175px] w-[175px] md:h-[350px] md:w-[350px] self-center'>
-          <Image src={profileImg} alt='Profile picture of Will' fill={true} priority={true} />
+          <Image src='/profile.jpeg' alt='Profile picture of Will' fill={true} priority={true} />
         </div>
       </div>
     </div>
