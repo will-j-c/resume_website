@@ -8,7 +8,6 @@ import {
   SiPandas,
   SiNumpy,
   SiExpress,
-  SiMicrosoftoffice,
   SiCsswizardry,
   SiMongodb,
   SiPostgresql,
@@ -20,11 +19,24 @@ import {
   SiSass
 } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
-import { FaHtml5, FaPython, FaLinux, FaDocker, FaReact } from 'react-icons/fa';
+import { FaHtml5, FaPython, FaLinux, FaDocker, FaReact, FaJava } from 'react-icons/fa';
 import { DiDjango } from 'react-icons/di';
 import { LiaNode } from 'react-icons/lia';
 
 export const arr = [
+  {
+    title: 'Connect Four',
+    description:
+      'Connect Four game in Java. Completed for Principles of Programming module for MSc at Bath University.',
+    githubLink: 'https://github.com/will-j-c/javaConnectFour',
+    appLink: 'https://replit.com/@wjcolgate/javaConnectFour',
+    draft: false,
+    uniqueId: uuidv4(),
+    rank: 10,
+    icons: [
+      <FaJava key={uuidv4()} title='jAVA' />,
+    ],
+  },
   {
     title: 'Resume Website',
     description:
