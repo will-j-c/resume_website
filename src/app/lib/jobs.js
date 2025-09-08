@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 export const arr = [
   {
     title: 'Head of Tax, Asia Pacific',
-    dates: '2023 – Present',
+    dates: '2023 – 2025',
     where: 'Schroders, Singapore',
     description:
       'Develop and implement tax strategies and policies for the APAC region at Schroders Singapore. Provide guidance and advice on tax matters to internal stakeholders and business units. Conduct tax planning and analysis to optimise tax efficiencies and minimise tax risks. Collaborate with cross-functional teams, including finance, legal, and compliance, to meet tax compliance and reporting requirements. Manage and oversee tax compliance activities, including preparation and submission of tax returns, and coordinate with external tax advisors. Provide training and support to internal teams on tax-related matters and promote tax awareness across the organisation.',

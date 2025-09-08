@@ -34,7 +34,7 @@ export const arr = [
     uniqueId: uuidv4(),
     rank: 10,
     icons: [
-      <FaJava key={uuidv4()} title='jAVA' />,
+      <FaJava key={uuidv4()} title='Java' />,
     ],
   },
   {
