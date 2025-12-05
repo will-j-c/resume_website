@@ -10,18 +10,17 @@ export default function Page() {
           Will Colgate.
         </h1>
         <div className='text-s text-lightThemeSecondaryText dark:text-darkThemeSecondaryText'>
-          <p>Tax professional</p>
+          <p>Solidity Developer</p>
+          <p>Quantitative Developer</p>
           <p>Chartered Accountant</p>
           <p>Chartered Tax Advisor</p>
           <p>Certificate in Quantitative Finance</p>
-          <p>Developer</p>
-          <p>Machine Learning Enthusiast</p>
-          <p>Aspiring Quant</p>
+
         </div>
       </div>
       <div className='basis-6/12 flex flex-col justify-center'>
         <div className='rounded-full relative overflow-hidden h-[175px] w-[175px] md:h-[350px] md:w-[350px] self-center'>
-          <Image src='/profile.jpeg' alt='Profile picture of Will' fill={true} priority={true} />
+          <Image src='/profile.png' alt='Profile picture of Will' fill={true} priority={true} />
         </div>
       </div>
     </div>

@@ -24,6 +24,36 @@ import { DiDjango } from 'react-icons/di';
 import { LiaNode } from 'react-icons/lia';
 
 export const arr = [
+    {
+    title: 'Squeeze Strategy Kraken Trading Bot',
+    description:
+      'Docker deployable trading bot to run a squeeze trading strategy on the Kraken exchange.',
+    githubLink: 'https://github.com/will-j-c/squeeze_bot',
+    appLink: 'https://github.com/will-j-c/squeeze_bot',
+    draft: false,
+    uniqueId: uuidv4(),
+    rank: 10,
+    icons: [
+      <SiPandas key={uuidv4()} title='Pandas' />,
+      <SiNumpy key={uuidv4()} title='Numpy' />,
+      <FaPython key={uuidv4()} title='Python' />,
+    ],
+  },
+  {
+    title: 'Pairs Strategy Kraken Trading Bot',
+    description:
+      'Docker deployable trading bot to run a pairs trading strategy on the Kraken exchange.',
+    githubLink: 'https://github.com/will-j-c/pairs_trading_bot',
+    appLink: 'https://github.com/will-j-c/pairs_trading_bot',
+    draft: false,
+    uniqueId: uuidv4(),
+    rank: 10,
+    icons: [
+      <SiPandas key={uuidv4()} title='Pandas' />,
+      <SiNumpy key={uuidv4()} title='Numpy' />,
+      <FaPython key={uuidv4()} title='Python' />,
+    ],
+  },
   {
     title: 'Connect Four',
     description:
@@ -150,8 +180,8 @@ export const arr = [
       <SiMongodb key={uuidv4()} title='MongoDB' />,
       <SiMongoose key={uuidv4()} title='Mongoose' />,
       <SiExpress key={uuidv4()} title='Express' />,
-      <SiMui key={uuidv4()} title='Material UI'/>,
-      <SiSass key={uuidv4()} title='Sass'/>,
+      <SiMui key={uuidv4()} title='Material UI' />,
+      <SiSass key={uuidv4()} title='Sass' />,
       <LiaNode key={uuidv4()} title='Node' />,
       <FaReact key={uuidv4()} title='React' />,
     ],

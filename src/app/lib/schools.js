@@ -1,11 +1,19 @@
 import { v4 as uuidv4 } from 'uuid';
 
 export const arr = [
+    {
+    qualification: 'Web3 Solidity Bootcamp',
+    institute: 'Metana',
+    dates: '2025 (current student)',
+    where: 'San Francisco, USA (Online)',
+    uniqueId: uuidv4(),
+    link: 'https://metana.io/',
+  },
   {
     qualification: 'MSc Computer Science',
     institute: 'University of Bath',
     dates: '2025 (current student)',
-    where: 'Bath, UK',
+    where: 'Bath, UK (Online)',
     uniqueId: uuidv4(),
     link: 'https://www.bath.ac.uk/',
   },
@@ -13,7 +21,7 @@ export const arr = [
     qualification: 'Certificate in Quantitative Finance (CQF)',
     institute: 'CQF Institute',
     dates: '2024',
-    where: 'Online, Singapore',
+    where: 'London, UK (Online)',
     uniqueId: uuidv4(),
     link: 'https://www.cqf.com/',
   },
@@ -28,7 +36,7 @@ export const arr = [
   {
     qualification: 'Chartered Tax Advisor (CTA)',
     institute: 'Chartered Institute of Taxation',
-    dates: '2013',
+    dates: '2014',
     where: 'London, UK',
     uniqueId: uuidv4(),
     link: 'https://www.tax.org.uk/',

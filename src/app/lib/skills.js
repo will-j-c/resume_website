@@ -14,7 +14,8 @@ import {
   SiMongoose,
   SiBootstrap,
   SiBulma,
-  SiGreensock
+  SiGreensock,
+  SiSolidity
 } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { FaHtml5, FaPython, FaLinux, FaDocker, FaReact, FaMicrosoft, FaJava } from 'react-icons/fa';
@@ -249,6 +250,12 @@ export const arr = [
   {
     icon: <FaJava />,
     name: 'Java',
+    type: 'technology',
+    uniqueId: uuidv4(),
+  },
+    {
+    icon: <SiSolidity />,
+    name: 'Solidity',
     type: 'technology',
     uniqueId: uuidv4(),
   },
