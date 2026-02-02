@@ -1,6 +1,6 @@
 'use client';
 
-import ProjectCard from '@/app/ui/ProjectCard';
+import TechProjectCard from '@/app/ui/TechProjectCard';
 import { arr } from '@/app/lib/cards';
 
 // Define a compare function
@@ -21,7 +21,7 @@ export default function Page() {
         }
         card.icons = card.icons.sort(compareByTitle);
         return (
-          <ProjectCard
+          <TechProjectCard
             key={card.uniqueId}
             data={{
               title: card.title,
