@@ -6,12 +6,13 @@ export default function Page() {
   return (
     <div className='flex flex-col md:flex-row max-w-[1110px] mx-auto max-h-[75vh] gap-10 mt-5 md:mt-36'>
       <div className='basis-6/12 flex h-full flex-col justify-center md:pl-20 text-center md:text-left'>
-        <h1 className='text-4xl text-lightThemePrimaryText mb-7 font-extrabold dark:text-darkThemePrimaryText'>
+        <h1 className='text-4xl text-lightThemePrimaryText mb-3 font-extrabold dark:text-darkThemePrimaryText'>
           Will Colgate.
         </h1>
+        <h3 className='text-xl text-lightThemeSecondaryText mb-3 font-extrabold dark:text-darkThemeSecondaryText'>
+          Finance Director | Head of Tax
+        </h3>
         <div className='text-s text-lightThemeSecondaryText dark:text-darkThemeSecondaryText'>
-          <p>Solidity Developer</p>
-          <p>Quantitative Developer</p>
           <p>Chartered Accountant</p>
           <p>Chartered Tax Advisor</p>
           <p>Certificate in Quantitative Finance</p>
