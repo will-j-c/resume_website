@@ -13,6 +13,7 @@ const links = [
   { name: 'Education', href: '/education' },
   { name: 'Skills', href: '/skills' },
   { name: 'Projects', href: '/projects' },
+  { name: 'Tech Projects', href: '/tech-projects' },
 ];
 
 export default function NavLinks(props) {

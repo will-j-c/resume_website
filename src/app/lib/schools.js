@@ -1,22 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
 export const arr = [
-    {
-    qualification: 'Web3 Solidity Bootcamp',
-    institute: 'Metana',
-    dates: '2025 (current student)',
-    where: 'San Francisco, USA (Online)',
-    uniqueId: uuidv4(),
-    link: 'https://metana.io/',
-  },
-  {
-    qualification: 'MSc Computer Science',
-    institute: 'University of Bath',
-    dates: '2025 (current student)',
-    where: 'Bath, UK (Online)',
-    uniqueId: uuidv4(),
-    link: 'https://www.bath.ac.uk/',
-  },
   {
     qualification: 'Certificate in Quantitative Finance (CQF)',
     institute: 'CQF Institute',
